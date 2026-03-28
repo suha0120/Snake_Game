@@ -1,84 +1,100 @@
-# Snake_Game
 
+# 🐍 Snake Game using Python & Pygame
 
-🐍 Snake Game using Python & Pygame
+A step-by-step implementation of the classic **Snake Game** using **Python** and **Pygame**.  
+This project is designed for beginners to learn game development concepts in a structured way.
 
-This project is a step-by-step implementation of the classic Snake Game using Python and Pygame.
-It is designed in a modular way so beginners can understand how a complete game is built from scratch.
+---
 
-🚀 Project Overview
+## 🚀 Project Overview
 
-The game evolves gradually from a simple moving block to a fully functional snake game with:
+This game evolves from a simple moving block into a fully functional snake game with:
 
-🎮 Movement controls
-🍎 Apple (food) system
-📈 Score tracking
-💀 Collision detection (self + walls)
-🔁 Game over & restart logic
-🎵 Background music & images
-🧩 Development Approach (Step-by-Step)
+- 🎮 Keyboard-based movement  
+- 🍎 Apple (food) system  
+- 📈 Score tracking  
+- 💀 Collision detection (self + wall)  
+- 🔁 Game over & restart logic  
+- 🎵 Background music & images  
 
-This project is divided into multiple stages to make learning structured and easy:
+---
 
-1️⃣ 1_build_screen_moving_block.py
+## 🧩 Development Approach (Step-by-Step)
 
-👉 Goal: Understand basic Pygame setup
+The project is divided into multiple stages for better understanding:
 
-Initialize Pygame
-Create game window (screen)
-Draw a single block
-Move block using keyboard input
+---
 
-💡 Focus: Screen rendering + basic movement
+### **1️⃣ 1_build_screen_moving_block.py**
+**Goal:** Understand basic Pygame setup
 
-2️⃣ 2_using_object_oriented_progra
+- Initialize Pygame  
+- Create a game window  
+- Draw a single block  
+- Move block using keyboard  
 
-👉 Goal: Introduce OOP (Object-Oriented Programming)
+👉 *Focus:* Screen rendering + basic controls  
 
-Create classes (e.g., Snake, Game)
-Organize code into reusable components
-Improve code structure
+---
 
-💡 Focus: Clean and scalable design
+### **2️⃣ 2_using_object_oriented_progra**
+**Goal:** Introduce Object-Oriented Programming (OOP)
 
-3️⃣ 3_moving_block_and_timer.py
+- Create classes (`Snake`, `Game`)  
+- Organize code into reusable components  
 
-👉 Goal: Add game loop timing
+👉 *Focus:* Clean and modular code structure  
 
-Introduce continuous movement
-Control speed using time.sleep() or clock
-Smooth gameplay
+---
 
-💡 Focus: Game loop + timing control
+### **3️⃣ 3_moving_block_and_timer.py**
+**Goal:** Add continuous movement
 
-4️⃣ 4_build_snake_draw_apple.py
+- Implement game loop  
+- Control speed using timer (`time.sleep`)  
 
-👉 Goal: Build actual snake and apple
+👉 *Focus:* Game loop + timing  
 
-Convert block → snake body (multiple segments)
-Draw apple randomly on screen
-Render both snake and apple
+---
 
-💡 Focus: Arrays/lists for snake body
+### **4️⃣ 4_build_snake_draw_apple.py**
+**Goal:** Build snake and apple
 
-5️⃣ 5_snake_eats_apple_and_score.py
+- Create snake using list (body segments)  
+- Draw apple at random positions  
 
-👉 Goal: Add gameplay mechanics
+👉 *Focus:* Data structures + rendering  
 
-Detect collision between snake & apple
-Increase snake length
-Update score
+---
 
-💡 Focus: Collision detection + game logic
+### **5️⃣ 5_snake_eats_apple_and_score.py**
+**Goal:** Add gameplay logic
 
-6️⃣ 6_game_over_restart_logic.py
+- Detect snake-apple collision  
+- Increase snake length  
+- Update score  
 
-👉 Goal: Handle game ending
+👉 *Focus:* Collision detection  
 
-Detect collision with:
-Itself 🐍
-Walls 🧱
-Show Game Over screen
-Add restart functionality
+---
 
-💡 Focus: Exception handling + reset logic
+### **6️⃣ 6_game_over_restart_logic.py**
+**Goal:** Handle game over
+
+- Detect collision with:
+  - Itself  
+  - Walls  
+- Show Game Over screen  
+- Restart game functionality  
+
+👉 *Focus:* Game state management  
+
+---
+
+### **7️⃣ 7_final_code_background_music_image.py**
+**Goal:** Final enhancements
+
+- Add background image  
+- Add sound effects  
+- Add background music  
+
